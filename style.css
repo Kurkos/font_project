@@ -1,4 +1,11 @@
-.wrapper{
+main{
 	 cursor: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Artworkbean_broom.svg/32px-Artworkbean_broom.svg.png'), auto;	
 }
-
+#hovered{
+	transition: 15ms;
+	margin-right:60px;
+}
+#hoveredOut{
+	transition: 100000ms;
+	margin-right:0px;
+}
